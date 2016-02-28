@@ -11,7 +11,7 @@ setup(
     author_email='janjelle@jjkester.nl',
     description='Audit log app for Django',
     install_requires=[
-        'Django>=1.7',
+        'Django<1.5',
         'django-jsonfield>=0.9.13',
     ]
 )
